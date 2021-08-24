@@ -144,10 +144,10 @@ Examples how to add data to a collection can be found [here](https://cloud.googl
 1. Edit the webhooks' values and change the URL into the field labeled Webhook URL.
 
     1. COVID-19-Healthcare-Webhook-ClearancePass
-        https://<paste here>/clearance-pass
+        `https://<paste here>/clearance-pass`
 
     1. COVID-19-Healthcare-Webhook-Locations
-        https://<paste here>>/covid19-locations
+        `https://<paste here>>/covid19-locations`
 1. Click Save.
    
 ## Configure Dialogflow Messenger 
