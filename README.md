@@ -142,6 +142,7 @@ Examples how to add data to a collection can be found [here](https://cloud.googl
 #### Configure Target URLs in your agent
 1. Go to your agent in CX console and click on Manage > Webhooks.
 1. Edit the webhooks' values and change the URL into the field labeled Webhook URL.
+
     #COVID-19-Healthcare-Webhook-ClearancePass
     https://<paste here>/clearance-pass
 
