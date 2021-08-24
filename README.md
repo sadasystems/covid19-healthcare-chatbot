@@ -143,11 +143,11 @@ Examples how to add data to a collection can be found [here](https://cloud.googl
 1. Go to your agent in CX console and click on Manage > Webhooks.
 1. Edit the webhooks' values and change the URL into the field labeled Webhook URL.
 
-    #COVID-19-Healthcare-Webhook-ClearancePass
-    https://<paste here>/clearance-pass
+    1. COVID-19-Healthcare-Webhook-ClearancePass
+        https://<paste here>/clearance-pass
 
-    #COVID-19-Healthcare-Webhook-Locations
-    https://<paste here>>/covid19-locations
+    1. COVID-19-Healthcare-Webhook-Locations
+        https://<paste here>>/covid19-locations
 1. Click Save.
    
 ## Configure Dialogflow Messenger 
