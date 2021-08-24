@@ -1,4 +1,4 @@
-# COVID-19 Healthcare Virtual Agent using CX platform
+# COVID-19 Healthcare Virtual Agent using Google Dialogflow CX platform
 A conversational chatbot to help companies to support their employees in:
 
 1. Issuing a Clearance pass that is required for entering the office building. Employees will complete a health screening and get the clearance pass for reporting to work in person.
