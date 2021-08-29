@@ -1,0 +1,35 @@
+# 
+# Copyright 2021, SADA, Inc.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      https://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+runtime: nodejs12
+
+automatic_scaling:
+  max_idle_instances: 1  # default value
+  min_pending_latency: automatic  # default value
+  max_pending_latency: 30ms
+  
+instance_class: F4_1G
+
+# env variables, please fill them as per your needs
+# If the mode value is 'trial' - Skips real-time account validations, clearance pass storage in the database, and email generation.
+# If the mode value is 'test' - Performs real-time account validations and store the clearance pass in the database. If emails are enabled, will send the email to the MAIL_USERNAME configured instead of the visitor's email address.
+env_variables:
+  MODE: test
+  ENABLE_MAIL: true
+  MAIL_USERNAME: <put FROM email address here>
+  MAIL_OAUTH_CLIENTID: <put Client ID here>
+  MAIL_OAUTH_CLIENT_SECRET: <put Client Secret here>
+  MAIL_OAUTH_REFRESH_TOKEN: <put Refresh token here>
+  MAIL_OAUTH_ACCESS_TOKEN: <put Access token here>

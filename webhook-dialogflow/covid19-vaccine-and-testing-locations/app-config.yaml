@@ -1,0 +1,36 @@
+# 
+# Copyright 2021, SADA, Inc.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      https://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+runtime: nodejs12
+service: locations
+
+automatic_scaling:
+  max_idle_instances: 1  # default value
+  min_pending_latency: automatic  # default value
+  max_pending_latency: 30ms
+  
+instance_class: F4_1G
+
+# env variables, please fill them as per your requirements
+env_variables:
+  COVID19_TESTING_CENTER_API: https://data.sfgov.org/resource/dtit-7gp4.json
+  COVID19_TESTING_CENTER_API_BEARER_TOKEN: 'Basic <put Base64 encoded clientid:secret here>'
+  COVID19_TESTING_CENTER_RADIUS_METERS: 32187
+  COVID19_TESTING_CENTER_RADIUS_MILES: 20
+  COVID19_VACCINE_ACCESS_POINTS_API: https://data.sfgov.org/resource/bw5r-gd57.json
+  COVID19_VACCINE_ACCESS_POINTS_API_BEARER_TOKEN: 'Basic <put Base64 encoded clientid:secret here>'
+  COVID19_VACCINE_ACCESS_POINTS_RADIUS_METERS: 32187
+  COVID19_VACCINE_ACCESS_POINTS_RADIUS_MILES: 20
+  MAX_NUMBER_OF_LOCATIONS_TO_FETCH: 3
