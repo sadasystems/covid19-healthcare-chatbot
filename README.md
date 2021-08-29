@@ -6,7 +6,7 @@ A conversational chatbot to help companies to support their employees in:
 a) Issuing a Digital Clearance pass that is required for entering the office building. Employees will complete a health screening and get the clearance pass for reporting to work in person.
 
 
-b) Providing guidance to employees on how to isolate or quarantine and for how long - It will ask a series of questions to provide the correct guidance for the individual’s situation based on SF Health Department and .
+b) Providing guidance to employees on how to isolate or quarantine and for how long - It will ask a series of questions to provide the correct guidance for the individual’s situation based on SF Health Department and CDC.
 
 
 c) Helping them find nearby COVID-19 vaccine centers based on various attributes; for example, if drop-ins are allowed, wheelchair accessibility, nearest centers from the individual’s address, etc. It will gather information from the customer and provide them vaccine center details include links to make an online appointment using the rich cards. It will use a webhook to fetch real-time data maintained by the SF Public Health Department.
