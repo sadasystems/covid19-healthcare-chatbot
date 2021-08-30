@@ -27,6 +27,12 @@ This module is a webhook example for Dialogflow. The webhook connects to a Cloud
 * Self Assessment Flow Diagram
 <p align="left"><img src="./screenshots/Self_Assessment_Flow-Diagram.png" width="1781" height="624" /></p>
 
+* Find Vaccine Access Points Flow Diagram
+<p align="left"><img src="./screenshots/Find_Vaccination_Access_Points_Flow-Diagram.png" width="1208" height="620" /></p>
+
+* Find Testing Centers Flow Diagram
+<p align="left"><img src="./screenshots/Find_Testing_Centers_Flow-Diagram.png" width="1751" height="315" /></p>
+
 * Account Validation Flow Diagram
 <p align="left"><img src="./screenshots/Account_Validation_Flow-Diagram.png" width="1371" height="232" /></p>
 
