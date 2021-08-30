@@ -19,25 +19,25 @@ Dialogflow Fulfillment mechanism is using multiple webhooks built using node.js 
 This module is a webhook example for Dialogflow. The webhook connects to a Cloud Firestore to validate the visitor by email (or employee id) and storing clearance passes.
 
 * Default Flow Diagram
-<p align="left"><img src="./screenshots/Default_Flow-Diagram.png" width="1516" height="183" /></p>
+<p align="left"><img src="./screenshots/Default_Flow-Diagram.png" width="1516" height="153" /></p>
 
 * Digital Clearance Pass Flow Diagram
-<p align="left"><img src="./screenshots/Digital_Clearance_Pass_Flow-Diagram.png" width="1178" height="771" /></p>
+<p align="left"><img src="./screenshots/Digital_Clearance_Pass_Flow-Diagram.png" width="1178" height="691" /></p>
 
 * Self Assessment Flow Diagram
-<p align="left"><img src="./screenshots/Self_Assessment_Flow-Diagram.png" width="1781" height="704" /></p>
+<p align="left"><img src="./screenshots/Self_Assessment_Flow-Diagram.png" width="1781" height="624" /></p>
 
 * Account Validation Flow Diagram
-<p align="left"><img src="./screenshots/Account_Validation_Flow-Diagram.png" width="1371" height="252" /></p>
+<p align="left"><img src="./screenshots/Account_Validation_Flow-Diagram.png" width="1371" height="232" /></p>
 
 * Contact HR Representative Flow Diagram
-<p align="left"><img src="./screenshots/Contact_HR_Representative_Flow-Diagram.png" width="695" height="115" /></p>
+<p align="left"><img src="./screenshots/Contact_HR_Representative_Flow-Diagram.png" width="595" height="95" /></p>
 
 * Digital Pass Granted Email Template
-<p align="left"><img src="./screenshots/Digital_Pass_Granted-Email.png" width="1367" height="484" /></p>
+<p align="left"><img src="./screenshots/Digital_Pass_Granted-Email.png" width="1367" height="434" /></p>
 
 * Digital Pass Granted with Conditions Email Template
-<p align="left"><img src="./screenshots/Digital_Pass_Granted_w_Conditions-Email.png" width="1356" height="507" /></p>
+<p align="left"><img src="./screenshots/Digital_Pass_Granted_w_Conditions-Email.png" width="1356" height="457" /></p>
 
 
 ## Technical Stack
