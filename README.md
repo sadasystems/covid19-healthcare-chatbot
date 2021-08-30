@@ -142,7 +142,7 @@ Examples how to add data to a collection can be found [here](https://cloud.googl
     });
 
 #### Sample data
-Sample Users data [here](https://github.com/sadasystems/covid19-healthcare-chatbot/sample-users-data.csv)
+Sample Users data [here](https://github.com/sadasystems/covid19-healthcare-chatbot/blob/main/sample-users-data.csv)
 
 ### 5. Configure Gmail API for sending mails
 1. Enable Gmail API [here](https://console.developers.google.com/start/api?id=gmail&credential=client_key)
