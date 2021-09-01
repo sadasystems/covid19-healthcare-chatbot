@@ -52,6 +52,17 @@ This module is a webhook example for Dialogflow. The webhook connects to a Cloud
 * GAE apps
 * Dialogflow CX
 
+## Dialogflow CX Featuers
+Flows (multiple)
+Pages
+Route Groups
+System / Custom entities
+Custom Payloads
+
+
+Custom Payload
+Sentiment Analysis
+
 ## Project Structure
 ```
 .
@@ -87,7 +98,8 @@ How to setup your project for this example can be found [here](https://cloud.goo
 1. Build an agent by following the instructions [here](https://cloud.google.com/dialogflow/cx/docs/quick/build-agent).
 1. Import (restore) the agent using the following instructions [here](https://cloud.google.com/dialogflow/cx/docs/concept/agent#export).
 1. Follow the instructions to restore the agent from "exported_agent_COVID-19 Healthcare Virtual Agent.blob".
-
+1. To change the phone number for contacting HR Representative, please check the preset parameter "company_phone" on "Contact HR Rep Flow".
+1. Also, if pass validaity is less than 4 hours, you can generate a new digital clearance pass. If you would like to change this period, you can change the preset parameter "pass_renewal_min_hours" in Default Start Flow, Welcome Page.
 
 ### 3. Google App Engine Setup
 This implementation is deployed on GCP using App Engine.
