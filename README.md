@@ -1,6 +1,6 @@
 <p align="left"><img src="./screenshots/sada-logo.png" width="197" height="33"/></p>
 
-# COVID-19 Healthcare Virtual Agent using Google Dialogflow CX platform
+# COVID-19 Healthcare Virtual Agent using Google Dialogflow CX platform :p
 A conversational chatbot to help companies to support their employees in:
 
 a) Issuing a Digital Clearance pass that is required for entering the office building. Employees will complete a health screening and get the clearance pass for reporting to work in person.
@@ -17,6 +17,10 @@ d) Locating nearby Cornavirus Testing centers within 20 miles of the location pr
 ## Approach
 Dialogflow Fulfillment mechanism is using multiple webhooks built using node.js (deployed as GAE apps).
 This module is a webhook example for Dialogflow. The webhook connects to a Cloud Firestore to validate the visitor by email (or employee id) and storing clearance passes.
+
+* Covid19 Healthcare Virtual Agent Screen Recording Video
+
+https://user-images.githubusercontent.com/28911302/131611488-8303c562-0890-4e0c-b893-09325451a2bf.mov
 
 * Default Flow Diagram
 <p align="left"><img src="./screenshots/Default_Flow-Diagram.png" width="1516" height="153" /></p>
